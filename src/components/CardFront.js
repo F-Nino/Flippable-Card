@@ -1,36 +1,41 @@
-import React, { Component } from "react";
+import React from "react";
 import AuLogo from "../AuLogo.png";
-
-class CardFront extends Component {
+class CardFront extends React.Component {
   render() {
     return (
       <div className="card-side side-front">
-        <div className="container-fluid">
-          <div className="content">
-            <img className="ui small circular image" src={AuLogo} />
-            <h2>Felipe Nino</h2>
+        <div className="ui segment">
+          <div className="ui two column very relaxed grid">
+            <div className="column">
+              <img src={AuLogo} alt="front card" />
+            </div>
 
-            <h1>Web Designer</h1>
+            <div className="column side-front-content">
+              <h2>Felipe Nino</h2>
 
-            <p>
-              Currently an undergrade at Aurora University majoring in computer
-              science.
-            </p>
+              <h1>Web Developer</h1>
 
-            <p>
-              He is currently the founder of Dvorak Media. Previously, Andrey
-              was a product designer at Dropbox.
-            </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
 
-            <p>
-              Over the years, Michael has been priviledged to have worked with
-              Adobe, Evernote, Square and more.
-            </p>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur.
+              </p>
+
+              <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     );
   }
 }
-
 export default CardFront;

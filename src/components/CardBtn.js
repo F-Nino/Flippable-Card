@@ -3,7 +3,7 @@ class CardBtn extends React.Component {
   render() {
     return (
       <button
-        className="ui primary button"
+        className="tiny ui button"
         type={this.props.type}
         value={this.props.value}
       >

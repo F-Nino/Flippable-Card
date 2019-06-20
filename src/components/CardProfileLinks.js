@@ -1,29 +1,20 @@
 import React from "react";
-
-const listStyle = {
-  listStyleType: "none",
-  margin: 0,
-  padding: 0
-};
-
 class CardProfileLinks extends React.Component {
   render() {
+    const profileLinks = ["twitter", "linkedin", "facebook", "github"];
+
+    const linkList = profileLinks.map((link, index) => (
+      <div key={index} className="item">
+        <button className={`mini ui icon ${link} button`}>
+          <i className={`${link} icon`} />
+        </button>
+      </div>
+    ));
     return (
       <div className="card-social-links">
-        <ul style={listStyle}>
-          <li>
-            <i className="linkedin icon" />
-          </li>
-          <li>
-            <i className="twitter icon" />
-          </li>
-          <li>
-            <i className="github icon" />
-          </li>
-        </ul>
+        <div className="ui horizontal list">{linkList}</div>
       </div>
     );
   }
 }
-
 export default CardProfileLinks;
