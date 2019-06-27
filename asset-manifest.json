@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Flippable-Card/static/css/main.1bda444e.chunk.css",
+    "main.js": "/Flippable-Card/static/js/main.26f19edb.chunk.js",
+    "main.js.map": "/Flippable-Card/static/js/main.26f19edb.chunk.js.map",
+    "runtime~main.js": "/Flippable-Card/static/js/runtime~main.94978b76.js",
+    "runtime~main.js.map": "/Flippable-Card/static/js/runtime~main.94978b76.js.map",
+    "static/js/2.98dcc9dd.chunk.js": "/Flippable-Card/static/js/2.98dcc9dd.chunk.js",
+    "static/js/2.98dcc9dd.chunk.js.map": "/Flippable-Card/static/js/2.98dcc9dd.chunk.js.map",
+    "index.html": "/Flippable-Card/index.html",
+    "precache-manifest.8c442708ce4ef67655bbb388afde6e68.js": "/Flippable-Card/precache-manifest.8c442708ce4ef67655bbb388afde6e68.js",
+    "service-worker.js": "/Flippable-Card/service-worker.js",
+    "static/css/main.1bda444e.chunk.css.map": "/Flippable-Card/static/css/main.1bda444e.chunk.css.map",
+    "static/media/AuLogo.png": "/Flippable-Card/static/media/AuLogo.e84cedf8.png"
+  }
+}
